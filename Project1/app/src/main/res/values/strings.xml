@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">中山大学绿色健康智慧平台</string>
+    <string name="title">中山大学智慧健康服务平台</string>
+    <string name="todo">TODO</string>
+    <string name="placeholder">请输入搜索内容</string>
+    <string name="ButtonText">搜索</string>
+    <string name="click_empty">搜索内容不能为空！</string>
+</resources>
