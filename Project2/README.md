@@ -84,33 +84,33 @@
 
 **第七周**
 
-1. 启动应用时，产生通知，随机推荐一个食品。
+1. 启动应用时，产生通知，随机推荐一个食品。  
     ![静态广播通知](http://ziquanzhang-image.oss-cn-shenzhen.aliyuncs.com/Android%20Project/Project2/week7_static_notification.png?x-oss-process=style/Android)
 
-2. 点击通知信息，可以跳转到相应的详情界面。
+2. 点击通知信息，可以跳转到相应的详情界面。  
     ![静态通知跳转](http://ziquanzhang-image.oss-cn-shenzhen.aliyuncs.com/Android%20Project/Project2/week7_static_jump.png?x-oss-process=style/Android)
 
-3. 点击收藏，产生已收藏通知。
+3. 点击收藏，产生已收藏通知。  
     ![动态广播通知](http://ziquanzhang-image.oss-cn-shenzhen.aliyuncs.com/Android%20Project/Project2/week7_dynamic_notification.png?x-oss-process=style/Android)
 
-4. 点击已收藏信息，跳转到收藏列表
+4. 点击已收藏信息，跳转到收藏列表  
     ![动态通知跳转](http://ziquanzhang-image.oss-cn-shenzhen.aliyuncs.com/Android%20Project/Project2/week7_dynamic_jump.png?x-oss-process=style/Android)
 
 **第八周**
 
-1. 启动应用时，添加一个widget，显示目前没有任何信息
+1. 启动应用时，添加一个widget，显示目前没有任何信息  
     ![widget](http://ziquanzhang-image.oss-cn-shenzhen.aliyuncs.com/Android%20Project/Project2/week8_widget.png?x-oss-process=style/Android)
 
-2. 点击widget，启动应用，后显示今日推荐的食品。
+2. 点击widget，启动应用，后显示今日推荐的食品。  
     ![week8_static_action](http://ziquanzhang-image.oss-cn-shenzhen.aliyuncs.com/Android%20Project/Project2/week8_static_action.png?x-oss-process=style/Android)
 
-3. 再次点击widget，跳转到推荐食品的详情页面中去。
+3. 再次点击widget，跳转到推荐食品的详情页面中去。  
     ![week8_static_jump](http://ziquanzhang-image.oss-cn-shenzhen.aliyuncs.com/Android%20Project/Project2/week8_static_jump.png?x-oss-process=style/Android)
 
-4. 点击收藏按钮，之后返回桌面，可以看到widget显示已收藏的信息，且图标变为实星。
+4. 点击收藏按钮，之后返回桌面，可以看到widget显示已收藏的信息，且图标变为实星。  
     ![week8_dynamic_action](http://ziquanzhang-image.oss-cn-shenzhen.aliyuncs.com/Android%20Project/Project2/week8_dynamic_action.png?x-oss-process=style/Android)
 
-5. 再次点击widget，跳转到应用的收藏夹中，发现被收藏的十字花科蔬菜。
+5. 再次点击widget，跳转到应用的收藏夹中，发现被收藏的十字花科蔬菜。  
     ![week8_dynamic_jump](http://ziquanzhang-image.oss-cn-shenzhen.aliyuncs.com/Android%20Project/Project2/week8_dynamic_jump.png?x-oss-process=style/Android)
 
 ### (2)实验步骤以及关键代码
