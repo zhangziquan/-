@@ -29,12 +29,12 @@
 实现一个Android应用，界面呈现如图中的效果。  
 
 本次实验模拟实现一个健康食品列表，有两个界面，第一个界面用于呈现食品列表 如下所示  
-![img1](/manual/images/img1.jpg)
+![img1](manual/images/img1.jpg)
 数据在"manual/素材"目录下给出。  
 点击右下方的悬浮按钮可以切换到收藏夹  
-![img2](/manual/images/img2.jpg)
+![img2](manual/images/img2.jpg)
 上面两个列表点击任意一项后，可以看到详细的信息：  
-![img3](/manual/images/img3.jpg)
+![img3](manual/images/img3.jpg)
 
 ### UI要求  
 
@@ -44,13 +44,13 @@
       与食品列表相似
 * 食品详情界面  
    1. 界面顶部  
-   ![img4](/manual/images/img4.jpg)  
+   ![img4](manual/images/img4.jpg)  
    顶部占整个界面的1/3。每个食品详情的顶部颜色在数据中已给出。返回图标处于这块区域的左上角，食品名字处于左下角，星标处于右下角，边距可以自己设置。 **返回图标与名字左对齐，名字与星标底边对齐。** 建议用RelativeLayout实现，以熟悉RelativeLayout的使用。  
    2. 界面中部  
-   ![img5](/manual/images/img5.jpg)  
+   ![img5](manual/images/img5.jpg)  
    使用的黑色argb编码值为#D5000000，稍微偏灰色的“富含”“蛋白质”的argb编码值为#8A000000。"更多资料"一栏上方有一条分割线，argb编码值为#1E000000。右边收藏符号的左边也有一条分割线，要求与收藏符号高度一致，垂直居中。字体大小自定。"更多资料"下方分割线高度自定。这部分所有的分割线argb编码值都是#1E000000。  
    3. 界面底部  
-   ![img6](/manual/images/img6.jpg)  
+   ![img6](manual/images/img6.jpg)  
    使用的黑色argb编码值为#D5000000。  
 * 标题栏  
       两个界面的标题栏都需要去掉
@@ -61,7 +61,7 @@
 * 点击右下方的FloatingActionButton，从食品列表切换到收藏夹或从收藏夹切换到食品列表，并且该按钮的图片作出相应改变。
 * 使用ListView实现收藏夹。点击收藏夹的某个食品会跳转到食品详情界面，呈现该食品的详细信息。长按收藏夹中的某个食品会弹出对话框询问是否移出该食品，点击确定则移除该食品，点击取消则对话框消失。如长按“鸡蛋”，对话框内容如下图所示。
 
-![img7](/manual/images/img7.jpg)
+![img7](manual/images/img7.jpg)
 
 * 商品详情界面中点击返回图标会返回上一层。点击星标会切换状态，如果原本是空心星星，则会变成实心星星；原本是实心星星，则会变成空心星星。点击收藏图表则将该食品添加到收藏夹并弹出Toast提示 **"已收藏"** 。
 

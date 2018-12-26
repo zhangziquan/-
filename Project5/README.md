@@ -40,16 +40,16 @@
 实现一个bilibili的用户视频信息获取软件
 <table>
     <tr>
-        <td ><img src="/manual/images/img1.png" >打开程序主页面</td>
-        <td ><img src="/manual/images/img2.png" >输入用户id，要求正整数int类型，不满足的弹Toast提示即可</td>
+        <td ><img src="manual/images/img1.png" >打开程序主页面</td>
+        <td ><img src="manual/images/img2.png" >输入用户id，要求正整数int类型，不满足的弹Toast提示即可</td>
     </tr>
     <tr>
-        <td ><img src="/manual/images/img3.png" >输入用户id，点击搜索，网络没打开则弹Toast提示网络连接失败</td>
-        <td ><img src="/manual/images/img4.png" >网络打开情况下，输入用户id，不存在相应数据的弹Toast提示</td>
+        <td ><img src="manual/images/img3.png" >输入用户id，点击搜索，网络没打开则弹Toast提示网络连接失败</td>
+        <td ><img src="manual/images/img4.png" >网络打开情况下，输入用户id，不存在相应数据的弹Toast提示</td>
     </tr>
     <tr>
-        <td ><img src="/manual/images/img5.png" >输入用户id = 2，点击搜索，展示图片/播放数/评论/时长/创建时间/标题/简介内容</td>
-        <td ><img src="/manual/images/img6.png" >再次输入用户id = 7，接着上次结果继续展示以上内容</td>
+        <td ><img src="manual/images/img5.png" >输入用户id = 2，点击搜索，展示图片/播放数/评论/时长/创建时间/标题/简介内容</td>
+        <td ><img src="manual/images/img6.png" >再次输入用户id = 7，接着上次结果继续展示以上内容</td>
     </tr>
 </table>
 
@@ -70,8 +70,8 @@
 加分项
 <table>
     <tr>
-        <td ><img src="/manual/images/img7.png" >拖动SeekBar，显示相应位置的预览图</td>
-        <td ><img src="/manual/images/img8.png" >拖动SeekBar，显示相应位置的预览图</td>
+        <td ><img src="manual/images/img7.png" >拖动SeekBar，显示相应位置的预览图</td>
+        <td ><img src="manual/images/img8.png" >拖动SeekBar，显示相应位置的预览图</td>
     </tr>
 </table>
 
@@ -91,16 +91,16 @@
 #### 实现一个github用户repos以及issues应用
 <table>
     <tr>
-        <td ><img src="/manual/images/img9.png" >主界面有两个跳转按钮分别对应两次作业</td>
-        <td ><img src="/manual/images/img10.png" >github界面，输入用户名搜索该用户所有可提交issue的repo，每个item可点击</td>
+        <td ><img src="manual/images/img9.png" >主界面有两个跳转按钮分别对应两次作业</td>
+        <td ><img src="manual/images/img10.png" >github界面，输入用户名搜索该用户所有可提交issue的repo，每个item可点击</td>
     </tr>
     <tr>
-        <td ><img src="/manual/images/img11.png" >repo详情界面，显示该repo所有的issues</td>
-        <td ><img src="/manual/images/img12.png" >加分项：在该用户的该repo下增加一条issue，输入title和body即可</td>
+        <td ><img src="manual/images/img11.png" >repo详情界面，显示该repo所有的issues</td>
+        <td ><img src="manual/images/img12.png" >加分项：在该用户的该repo下增加一条issue，输入title和body即可</td>
     </tr>
 </table>
 
-* 教程位于`./manual/tutorial_retrofit.md`
+* 教程位于`.manual/tutorial_retrofit.md`
 * 每次点击搜索按钮都会清空上次搜索结果再进行新一轮的搜索
 * 获取repos时需要处理以下异常：HTTP 404 以及 用户没有任何repo
 * 只显示 has_issues = true 的repo（即fork的他人的项目不会显示）

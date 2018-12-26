@@ -30,12 +30,12 @@
 实现一个简单的播放器，要求功能有：  
 <table>
     <tr>
-        <td ><img src="/manual/images/fig1.jpg" >打开程序主页面</td>
-        <td ><img src="/manual/images/fig2.jpg" >开始播放</td>
+        <td ><img src="manual/images/fig1.jpg" >打开程序主页面</td>
+        <td ><img src="manual/images/fig2.jpg" >开始播放</td>
     </tr>
     <tr>
-        <td ><img src="/manual/images/fig3.jpg" >暂停</td>
-        <td ><img src="/manual/images/fig1.jpg" >停止</td>
+        <td ><img src="manual/images/fig3.jpg" >暂停</td>
+        <td ><img src="manual/images/fig1.jpg" >停止</td>
     </tr>
 </table>
 
