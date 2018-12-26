@@ -141,19 +141,19 @@
 
 #### 第十五周
 
-1. 打开应用，显示一个输入框，用于输入github用户名。
+1. 打开应用，显示一个输入框，用于输入github用户名。  
    ![homepage](Screenshot/project5_api2_homepage-281x500.png)
 
-2. 根据用户名查询其github仓库，仅显示不是fork的仓库。
+2. 根据用户名查询其github仓库，仅显示不是fork的仓库。  
    ![repo](Screenshot/project5_api2_repo-281x500.png)
 
-3. 点击某一个仓库可以查看该仓库的所有Issue
+3. 点击某一个仓库可以查看该仓库的所有Issue  
    ![issue](Screenshot/project5_api2_issues-281x500.png)
 
-4. 输入token，title，body可以为该仓库添加Issue
+4. 输入token，title，body可以为该仓库添加Issue  
    ![repo](Screenshot/project5_api2_create_issue-281x500.png)
 
-5. 添加Issue完毕
+5. 添加Issue完毕  
    ![repo](Screenshot/project5_api2_create_issue-281x500.png)
 
 
