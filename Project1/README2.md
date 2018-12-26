@@ -27,7 +27,7 @@
 
 实现一个Android应用，界面呈现如图中的效果。  
 
-![preview](https://gitee.com/code_sysu/PersonalProject1/raw/master/manual/images/preview.jpg)
+![preview](/manual/images/preview.jpg)
 
 ### 要求  
 
@@ -37,11 +37,11 @@
       * 如果搜索内容为空，弹出Toast信息“**搜索内容不能为空**”。
       * 如果搜索内容为“Health”，根据选中的RadioButton项弹出如下对话框。  
 
-![success](https://gitee.com/code_sysu/PersonalProject1/raw/master/manual/images/success.jpg)  
+![success](/manual/images/success.jpg)  
 点击“确定”，弹出Toast信息——**对话框“确定”按钮被点击**。  
 点击“取消”，弹出Toast 信息——**对话框“取消”按钮被点击**。  
 否则弹出如下对话框，对话框点击效果同上。  
-![fail](https://gitee.com/code_sysu/PersonalProject1/raw/master/manual/images/fail.jpg)  
+![fail](/manual/images/fail.jpg)  
    2. RadioButton选择项切换：选择项切换之后，弹出Toast信息“**XX被选中**”，例如从图片切换到视频，弹出Toast信息“**视频被选中**”
 
 ---

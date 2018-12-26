@@ -25,7 +25,7 @@
 ## 二、实现内容
 
 实现一个Android应用，界面呈现如图中的效果。  
- ![preview](https://gitee.com/code_sysu/PersonalProject1/raw/master/manual/images/preview.jpg)
+ ![preview](/manual/images/preview.jpg)
 
 ### 要求  
 
