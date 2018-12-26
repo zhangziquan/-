@@ -164,7 +164,7 @@
 * 实验步骤
     1. 设计应用界面，调整recycleView适配器，设置item界面等等。例如cardView的阴影圆角，进度条等等。  
     **关键代码：**
-        ![设计页面](Screenshot/project5_api_design.PNG)
+        ![设计页面](Screenshot/project5_api_design.png)
 
     2. 使用HttpUrlConnection来调用api，获得目标id用户的代表作，添加到显示列表之中。其中使用GSON来直接解析JSON得到对应的对象。若出现异常，则根据异常抛出对应的错误，值得注意的是在子线程使用Toast传递消息要写Looper.prepare()创建消息循环，Looper.loop()启动消息循环队列，这样才能使用Toast。  
     **关键代码：**
@@ -328,9 +328,9 @@
 * 实验步骤
     1. 还是先设计好显示的页面，布置格局，进行排版调整，划分Activity。
     **关键代码：**
-        ![设计页面](Screenshot/project5_api2_design.PNG)
+        ![设计页面](Screenshot/project5_api2_design.png)
 
-        ![设计页面](Screenshot/project5_api2_design2.PNG)
+        ![设计页面](Screenshot/project5_api2_design2.png)
 
     2. 本次实验使用retrofit来进行网络请求，retrofit是restful的HTTP网络请求库，仅仅负责网络请求接口的封装，最后还是需要交给Okhttp完成请求，返回的结果也是由Okhttp交给Retrofit解析。
     **关键代码：**
